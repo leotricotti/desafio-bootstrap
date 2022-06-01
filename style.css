@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+#body {
+    min-height: 100%;
+    background: rgb(232, 217, 250);
+    background: linear-gradient(180deg, rgb(240, 231, 252) 60%, rgba(181, 184, 254, 1) 100%);
+    background-attachment: fixed;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-header {
+    margin: .3rem 0 0 3rem;
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+}
+
+.navbar-nav {
+    margin-left: 38rem;
+}
+
+.carousel-item img {
+    filter: sepia(50%);
+}
+
+.carousel-inner {
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.carousel-caption em {
+    color: rgb(167, 167, 167);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+   background-color: rgba(128, 128, 128, .9) ;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing .col-lg-4 h2 {
+    margin: 1rem 0 1rem 0;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    letter-spacing: -.05rem;
+}
+
+.footer-icons{
+    display: inline-block;
+    margin-right: 25rem;
+}
+
+.footer-icons a{
+    color: rgb(65, 65, 65);
+} 
+
+.anillos {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.aros {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.dijes {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.amuletos {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.card {
+    border: .1px solid rgb(218, 211, 211);
+    transition: all .5s ease-in-out;
+}
+
+.card img {
+    padding: .7rem;
+    border-radius: 1rem;
+    transition: all .5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border: 1px solid black;
+}   
+
+.main-nosotras {
+    width: 100%;
+    height: 1000px;
+}
+
+.main-contacto {
+    width: 100%;
+    height: 1000px;
+}
+
+.productos-main {
+    width: 100%;
+    height: 1000px;
+}
+
+
+
+@media (min-width: 40em) {
+
+ 
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
